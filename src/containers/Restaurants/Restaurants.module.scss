@@ -1,0 +1,19 @@
+@import "styles/variables";
+
+.RestaurantsContainer {
+  display: flex;
+  align-self: stretch;
+  justify-content: space-around;
+  padding: $xs;
+  flex-wrap: wrap;
+
+  .Empty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-weight: bold;
+    font-size: $l;
+    text-align: center;
+  }
+}

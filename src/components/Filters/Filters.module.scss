@@ -1,0 +1,15 @@
+@import "styles/variables";
+
+.Input {
+  height: $xl;
+  width: 50%;
+  border-radius: $s;
+  padding: $xxs $s;
+  font-style: italic;
+  font-size: $m;
+
+  @media (max-width: 480px) {
+    font-size: $m;
+    width: 70%;
+  }
+}
